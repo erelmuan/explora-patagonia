@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explora Patagonia</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="index.html"><span>🏔️</span> Explora Patagonia</a>
+  <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
+  <nav id="menu" class="menu">
+    <a class="activo" href="index.html">Inicio</a>
+    <a href="paginas/destinos.html">Destinos</a>
+    <a href="paginas/experiencias.html">Experiencias</a>
+    <a href="paginas/alojamiento.html">Alojamiento</a>
+    <a href="paginas/informacion.html">Información</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero contenedor">
+    <div>
+      <span class="tag">Naturaleza y aventura</span>
+      <h1>Descubrí paisajes que invitan a quedarse.</h1>
+      <p class="lead">
+        Explora Patagonia reúne destinos, actividades, alojamientos e información útil
+        para organizar una experiencia por el sur.
+      </p>
+      <div class="acciones">
+        <a class="btn primario" href="paginas/destinos.html">Ver destinos</a>
+        <a class="btn secundario" href="paginas/experiencias.html">Explorar actividades</a>
+      </div>
+    </div>
+
+    <div class="heroVisual" aria-hidden="true">
+      <article class="featureCard">
+        <span>🏞️</span>
+        <b>Paisajes</b>
+        <small>Montañas, lagos y senderos.</small>
+      </article>
+      <article class="featureCard secundaria">
+        <span>🥾</span>
+        <b>Aventura</b>
+        <small>Experiencias para distintos ritmos.</small>
+      </article>
+    </div>
+  </section>
+
+  <section class="stats contenedor">
+    <article><strong>8+</strong><span>destinos sugeridos</span></article>
+    <article><strong>12</strong><span>experiencias posibles</span></article>
+    <article><strong id="contador">0</strong><span>visitas en este navegador</span></article>
+  </section>
+
+  <section class="contenedor seccion">
+    <div class="titulo">
+      <span class="tag">Planificá tu viaje</span>
+      <h2>Todo lo necesario para empezar a descubrir.</h2>
+      <p>Elegí un destino, buscá una actividad, compará alojamientos y consultá información útil.</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="paginas/destinos.html">
+        <span class="icono">📍</span>
+        <h3>Destinos</h3>
+        <p>Lugares destacados, paisajes y puntos de interés.</p>
+        <b>Explorar destinos →</b>
+      </a>
+      <a class="card" href="paginas/experiencias.html">
+        <span class="icono">🧭</span>
+        <h3>Experiencias</h3>
+        <p>Actividades, excursiones y propuestas al aire libre.</p>
+        <b>Ver experiencias →</b>
+      </a>
+      <a class="card" href="paginas/alojamiento.html">
+        <span class="icono">🏡</span>
+        <h3>Alojamiento</h3>
+        <p>Opciones para descansar y organizar la estadía.</p>
+        <b>Ver alojamientos →</b>
+      </a>
+      <a class="card" href="paginas/informacion.html">
+        <span class="icono">ℹ️</span>
+        <h3>Información útil</h3>
+        <p>Consejos, clima, transporte y recomendaciones para el viaje.</p>
+        <b>Consultar información →</b>
+      </a>
+    </div>
+  </section>
+
+  <section class="contenedor dosColumnas">
+    <div>
+      <span class="tag">Viajar mejor</span>
+      <h2>Organizá lo esencial antes de salir.</h2>
+      <p class="texto">
+        Una buena planificación permite aprovechar mejor el tiempo, cuidar el entorno
+        y elegir actividades acordes a cada viajero.
+      </p>
+      <ul class="check">
+        <li>Consultar clima y estado de rutas.</li>
+        <li>Reservar con anticipación en temporada alta.</li>
+        <li>Respetar senderos, señalización y áreas protegidas.</li>
+      </ul>
+    </div>
+    <div class="nota">
+      <h3>Consejo de viaje</h3>
+      <p>Revisá siempre información actualizada del destino y prepará tu recorrido según la época del año.</p>
+      <a class="btn primario" href="paginas/informacion.html">Ver información útil</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer contenedor">
+  <div><b>Explora Patagonia</b><p>Ideas para conocer y disfrutar el sur.</p></div>
+  <p class="materia">Sitio desarrollado en Laboratorio Full Stack I</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -4,44 +4,115 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Experiencias y actividades | Explora Patagonia</title>
+   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
 
-  <h1>Experiencias y actividades</h1>
+ <main class="contenedor">
+    <!-- TÍTULO PRINCIPAL Y PÁRRAFO INTRODUCTORIO (Usa .seccion y .titulo) -->
+    <section class="seccion">
+        <div class="titulo">
+            <span class="tag">Actividades</span>
+            <h1>Experiencias en la Patagonia</h1>
+            <p class="lead"><strong>Alumno responsable:</strong> Carlos Pereyra</p>
+            <p class="texto">
+                Descubre la majestuosidad del sur argentino y chileno a través de actividades diseñadas para conectar con la naturaleza pura. Desde caminatas sobre hielos milenarios hasta el avistaje de la fauna marina más espectacular del planeta, la Patagonia ofrece aventuras inolvidables para cada tipo de viajero.
+            </p>
+        </div>
+    </section>
 
-  <p><strong>Alumno/a responsable:</strong> Carlos Pereyra</p>
+    <!-- 4 TARJETAS VISUALES (Usa .grid de 4 columnas y .card con efecto hover de tu CSS) -->
+    <section class="seccion">
+        <div class="titulo">
+            <h2>Actividades Destacadas</h2>
+        </div>
+        <div class="grid">
+            
+            <article class="card">
+                <div class="icono">🏔️</div>
+                <h3>Minitrekking Glaciar</h3>
+                <p class="card p">Camina con grampones sobre el hielo del glaciar Perito Moreno, explorando grietas y lagunas azules.</p>
+                <b>Ver detalles</b>
+            </article>
 
-  <h2>Consigna</h2>
+            <article class="card">
+                <div class="icono">🐋</div>
+                <h3>Avistaje de Ballenas</h3>
+                <p class="card p">Navega por las aguas del Golfo Nuevo en Puerto Madryn para observar de cerca a la Ballena Franca Austral.</p>
+                <b>Ver detalles</b>
+            </article>
 
-  <p>Desarrollar una página que muestre distintas actividades y experiencias que pueden realizarse durante un viaje por la Patagonia.</p>
+            <article class="card">
+                <div class="icono">🚢</div>
+                <h3>Navegación Canal Beagle</h3>
+                <p class="card p">Zarpa desde el fin del mundo para fotografiar el icónico Faro Les Éclaireurs y colonias de lobos marinos.</p>
+                <b>Ver detalles</b>
+            </article>
 
-  <h3>La página deberá incluir como mínimo:</h3>
+            <article class="card">
+                <div class="icono">🥾</div>
+                <h3>Senderismo El Chaltén</h3>
+                <p class="card p">Recorre la capital nacional del trekking hacia la base del imponente Monte Fitz Roy y la Laguna de los Tres.</p>
+                <b>Ver detalles</b>
+            </article>
 
-  <ul>
-        <li>Incluir un título principal y un párrafo introductorio sobre las actividades disponibles.</li>
-        <li>Presentar al menos 4 experiencias mediante tarjetas o bloques visuales, cada una con nombre, breve descripción e imagen o ícono.</li>
-        <li>Agregar una tabla o sección organizada que indique dificultad, duración o época recomendada para algunas actividades.</li>
-        <li>Incorporar una lista con recomendaciones o elementos necesarios para realizar las actividades de forma responsable.</li>
-  </ul>
+        </div>
+    </section>
 
-  <p>
-    <strong>Opcional:</strong> Podés incorporar algún elemento adicional que, a tu criterio,
-    mejore la presentación, la información o la funcionalidad de la página.
-    La propuesta debe ser coherente con el sitio y con la temática desarrollada.
-  </p>
+    <!-- SECCIÓN CON TABLA Y LISTA (Usa .dosColumnas y la lista interactiva .check de tu CSS) -->
+    <div class="dosColumnas">
+        
+        <!-- Tabla de Planificación (Usa .nota para que tenga fondo blanco y la sombra del index) -->
+        <section class="nota">
+            <h3>Planificación del Viaje</h3>
+            <p>Datos clave para organizar tus salidas de forma óptima:</p>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px; color: var(--oscuro);">
+                <thead>
+                    <tr style="border-bottom: 2px solid var(--borde); text-align: left;">
+                        <th style="padding: 8px 0;">Actividad</th>
+                        <th style="padding: 8px 0;">Dificultad</th>
+                        <th style="padding: 8px 0;">Época</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid var(--borde);">
+                        <td style="padding: 8px 0;">Minitrekking</td>
+                        <td style="padding: 8px 0; color: var(--azul); font-weight: bold;">Media</td>
+                        <td style="padding: 8px 0; color: var(--texto);">Oct a Abr</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--borde);">
+                        <td style="padding: 8px 0;">Avistaje Ballenas</td>
+                        <td style="padding: 8px 0; color: var(--azul); font-weight: bold;">Baja</td>
+                        <td style="padding: 8px 0; color: var(--texto);">Jun a Dic</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--borde);">
+                        <td style="padding: 8px 0;">Navegación Beagle</td>
+                        <td style="padding: 8px 0; color: var(--azul); font-weight: bold;">Baja</td>
+                        <td style="padding: 8px 0; color: var(--texto);">Todo el año</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--borde);">
+                        <td style="padding: 8px 0;">Trekking Fitz Roy</td>
+                        <td style="padding: 8px 0; color: var(--azul); font-weight: bold;">Alta</td>
+                        <td style="padding: 8px 0; color: var(--texto);">Nov a Mar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-  <p>
-    Tomá como referencia el <strong>index.html</strong> para integrar esta página al resto del sitio.
-    La versión final debe mantener coherencia visual y permitir navegar hacia las demás secciones.
-    El menú no se encuentra resuelto en esta plantilla: deberás incorporarlo tomando como referencia
-    la página principal.
-  </p>
+        <!-- Recomendaciones Responsables (Usa la clase .check que autogenera los tildes "✓" de tu CSS) -->
+        <section class="nota">
+            <h3>Turismo Responsable</h3>
+            <p>Ayúdanos a preservar los ecosistemas patagónicos siguiendo estas normas básicas:</p>
+            <ul class="check" style="margin-top: 15px;">
+                <li><strong>Regresa con tus residuos:</strong> Guarda la basura en tu mochila.</li>
+                <li><strong>Respeta los senderos:</strong> Mantente siempre dentro de las huellas marcadas.</li>
+                <li><strong>No uses fuego:</strong> Está estrictamente prohibido hacer fogatas.</li>
+                <li><strong>Protege la fauna:</strong> Mantén una distancia prudencial con los animales.</li>
+            </ul>
+        </section>
 
-  <p>
-    JavaScript es opcional y puede utilizarse si aporta una funcionalidad concreta.
-    Si necesitás modificar archivos CSS o JavaScript compartidos, coordiná previamente con el resto del grupo
-    para evitar conflictos.
-  </p>
+    </div>
+</main>
 
-</body>
+  </body>
 </html>

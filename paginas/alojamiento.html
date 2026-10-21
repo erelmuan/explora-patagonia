@@ -4,44 +4,108 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alojamiento | Explora Patagonia</title>
+
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
+
 <body>
 
-  <h1>Alojamiento</h1>
+  <header class="topbar">
+  <a class="logo" href="../index.html">
+    <span>🏔️</span> Explora Patagonia
+  </a>
 
-  <p><strong>Alumno/a responsable:</strong> Gisela Adriana Flores</p>
+  <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
 
-  <h2>Consigna</h2>
+  <nav id="menu" class="menu">
+    <a href="../index.html">Inicio</a>
+    <a href="destinos.html">Destinos</a>
+    <a href="experiencias.html">Experiencias</a>
+    <a class="activo" href="alojamiento.html">Alojamiento</a>
+    <a href="informacion.html">Información</a>
+  </nav>
+</header>
 
-  <p>Desarrollar una página que presente distintas opciones de alojamiento para quienes visiten la región.</p>
+<main>
 
-  <h3>La página deberá incluir como mínimo:</h3>
-
-  <ul>
-        <li>Incluir un título principal y uno o más párrafos introductorios sobre las alternativas de alojamiento.</li>
-        <li>Presentar al menos 3 opciones mediante tarjetas, indicando tipo de alojamiento, características e imagen.</li>
-        <li>Agregar una tabla o sección comparativa con servicios, ubicación aproximada o precio ficticio.</li>
-        <li>Incorporar un botón o enlace de consulta o reserva y una lista con recomendaciones para elegir alojamiento.</li>
-  </ul>
+  <h1>Alojamientos en la Patagonia</h1>
 
   <p>
-    <strong>Opcional:</strong> Podés incorporar algún elemento adicional que, a tu criterio,
-    mejore la presentación, la información o la funcionalidad de la página.
-    La propuesta debe ser coherente con el sitio y con la temática desarrollada.
+    La Patagonia ofrece una amplia variedad de alojamientos para quienes desean
+    disfrutar de sus paisajes y actividades.
   </p>
 
   <p>
-    Tomá como referencia el <strong>index.html</strong> para integrar esta página al resto del sitio.
-    La versión final debe mantener coherencia visual y permitir navegar hacia las demás secciones.
-    El menú no se encuentra resuelto en esta plantilla: deberás incorporarlo tomando como referencia
-    la página principal.
+    Desde hoteles con servicios completos hasta cabañas y hostels económicos,
+    existen opciones para distintos presupuestos y estilos de viaje.
   </p>
 
-  <p>
-    JavaScript es opcional y puede utilizarse si aporta una funcionalidad concreta.
-    Si necesitás modificar archivos CSS o JavaScript compartidos, coordiná previamente con el resto del grupo
-    para evitar conflictos.
-  </p>
+   <section class="seccion">
+    <span class="tag">Nuestras recomendaciones</span>
+    <h2>Opciones de alojamiento</h2>
 
+     <div class="grid">
+
+      
+    <article class="card">
+      <span class="icono">🏨</span>
+      <p>Habitaciones privadas, desayuno incluido y wifi.</p>
+    </article>
+
+   <article class="card">
+        <span class="icono">🏕️</span>
+      <h3>Hostel Andino</h3>
+      <p>Habitaciones compartidas y ambiente juvenil.</p>
+    </article>
+ 
+
+   <article class="card">
+        <span class="icono">🎒</span>
+      <p>Cocina equipada y vistas al lago.</p>
+    </article>
+ </section>
+</div>
+
+   <section class="seccion">
+    <div class="titulo">
+      <span class="tag">Comparación</span>
+      <h2>Compará las alternativas</h2>
+    </div>
+
+    <table border="3" cellpadding="8" cellspacing="2" width="100%">
+      <tr>
+        <th>Tipo</th>
+        <th>Ubicación</th>
+        <th>Servicios</th>
+        <th>Precio por noche</th>
+      </tr>
+
+      <tr>
+        <td>Hotel</td>
+        <td>Centro turístico</td>
+        <td>Wifi, desayuno y estacionamiento</td>
+        <td>$85.000</td>
+      </tr>
+
+      <tr>
+        <td>Cabaña</td>
+        <td>Cerca del lago</td>
+        <td>Cocina equipada y parrilla</td>
+        <td>$65.000</td>
+      </tr>
+
+      <tr>
+        <td>Hostel</td>
+        <td>Zona urbana</td>
+        <td>Cocina compartida y wifi</td>
+        <td>$25.000</td>
+      </tr>
+    </table>
+  </section>
+    
+
+</main>
+
+<script src="../js/script.js"></script>
 </body>
 </html>

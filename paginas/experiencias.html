@@ -8,18 +8,28 @@
 </head>
 <body>
 
+<header class="topbar">
+  <a class="logo" href="../index.html"><span>🏔️</span> Explora Patagonia</a>
+ <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
+  <nav id="menu" class="menu">
+    <a href="../index.html">Inicio</a>
+    <a href="../paginas/destinos.html">Destinos</a>
+    <a class="activo" href="../paginas/experiencias.html">Experiencias</a>
+    <a href="../paginas/alojamiento.html">Alojamiento</a>
+    <a href="../paginas/informacion.html">Información</a>
+  </nav>
+</header>
+
+
  <main class="contenedor">
-    <!-- TÍTULO PRINCIPAL Y PÁRRAFO INTRODUCTORIO (Usa .seccion y .titulo) -->
-    <section class="seccion">
-        <div class="titulo">
-            <span class="tag">Actividades</span>
-            <h1>Experiencias en la Patagonia</h1>
-            <p class="lead"><strong>Alumno responsable:</strong> Carlos Pereyra</p>
-            <p class="texto">
-                Descubre la majestuosidad del sur argentino y chileno a través de actividades diseñadas para conectar con la naturaleza pura. Desde caminatas sobre hielos milenarios hasta el avistaje de la fauna marina más espectacular del planeta, la Patagonia ofrece aventuras inolvidables para cada tipo de viajero.
-            </p>
-        </div>
-    </section>
+    <h1>Experiencias en la Patagonia</h1>
+    <img class="imagen-presentacion" src="imgcarlos/presentacion.jpg" alt="Paisaje de la Patagonia">
+<p>
+    Descubre la majestuosidad del sur argentino y chileno a través de actividades diseñadas para conectar con la naturaleza pura...
+</p>
+    <p>
+        Descubre la majestuosidad del sur argentino y chileno a través de actividades diseñadas para conectar con la naturaleza pura. Desde caminatas sobre hielos milenarios hasta el avistaje de la fauna marina más espectacular del planeta, la Patagonia ofrece aventuras inolvidables para cada tipo de viajero.
+    </p>
 
     <!-- 4 TARJETAS VISUALES (Usa .grid de 4 columnas y .card con efecto hover de tu CSS) -->
     <section class="seccion">
@@ -27,33 +37,50 @@
             <h2>Actividades Destacadas</h2>
         </div>
         <div class="grid">
-            
+    
+            <!-- TARJETA 1 -->
             <article class="card">
-                <div class="icono">🏔️</div>
+                
+                <img class="img-experiencias" src="imgcarlos/glaciar.jpg" alt="Minitrekking sobre el Glaciar Perito Moreno">
                 <h3>Minitrekking Glaciar</h3>
                 <p class="card p">Camina con grampones sobre el hielo del glaciar Perito Moreno, explorando grietas y lagunas azules.</p>
-                <b>Ver detalles</b>
+                <details>
+                    <summary>Ver detalles</summary>
+                    <p>La excursión incluye una caminata guiada sobre el glaciar. Consultá la edad mínima y los requisitos físicos antes de reservar.</p>
+                </details>
             </article>
 
+            <!-- TARJETA 2 -->
             <article class="card">
-                <div class="icono">🐋</div>
+                <img class="img-experiencias" src="imgcarlos/ballena.jpg" alt="Avistaje de Ballenas Franca Austral">
                 <h3>Avistaje de Ballenas</h3>
                 <p class="card p">Navega por las aguas del Golfo Nuevo en Puerto Madryn para observar de cerca a la Ballena Franca Austral.</p>
-                <b>Ver detalles</b>
+                <details>
+                    <summary>Ver detalles</summary>
+                    <p>La navegación sale desde Puerto Madryn. Consultá las fechas y la disponibilidad de salidas antes de reservar.</p>
+                </details>
             </article>
 
+            <!-- TARJETA 3 -->
             <article class="card">
-                <div class="icono">🚢</div>
+                <img class="img-experiencias" src="imgcarlos/faro.jpg" alt="Navegación Canal Beagle Faro">
                 <h3>Navegación Canal Beagle</h3>
                 <p class="card p">Zarpa desde el fin del mundo para fotografiar el icónico Faro Les Éclaireurs y colonias de lobos marinos.</p>
-                <b>Ver detalles</b>
+                <details>
+                    <summary>Ver detalles</summary>
+                    <p>Durante el recorrido se pueden observar el Faro Les Éclaireurs y fauna marina. La salida depende de las condiciones climáticas.</p>
+                </details>
             </article>
 
+            <!-- TARJETA 4 -->
             <article class="card">
-                <div class="icono">🥾</div>
+                <img class="img-experiencias" src="imgcarlos/chalten.jpg" alt="Trekking Fitz Roy El Chaltén">
                 <h3>Senderismo El Chaltén</h3>
                 <p class="card p">Recorre la capital nacional del trekking hacia la base del imponente Monte Fitz Roy y la Laguna de los Tres.</p>
-                <b>Ver detalles</b>
+                <details>
+                    <summary>Ver detalles</summary>
+                    <p>El recorrido hacia Laguna de los Tres es exigente y puede llevar varias horas. Revisá el clima y el estado del sendero antes de salir.</p>
+                </details>
             </article>
 
         </div>
@@ -114,5 +141,6 @@
     </div>
 </main>
 
-  </body>
+<script src="../js/script.js"></script>
+</body>
 </html>

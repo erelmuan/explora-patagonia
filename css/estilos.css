@@ -29,3 +29,14 @@ h1,h2,h3{line-height:1.1;margin-top:0}h1{font-size:clamp(2.6rem,6vw,5rem);letter
     border-radius:12px;
     margin-bottom:15px;
 }
+
+.img-destinos {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-destinos:hover {
+    transform: scale(2.02);
+    transform-origin: left center;
+}

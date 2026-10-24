@@ -6,38 +6,70 @@
   <title>Destinos | Explora Patagonia</title>
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<header> 
+<header class="topbar">
+  <a class="logo" href="index.html"><span>🏔️</span> Explora Patagonia</a>
+ <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
+  <nav id="menu" class="menu">
+    <a href="index.html">Inicio</a>
+    <a class="activo" href="destinos.html">Destinos</a>
+    <a href="experiencias.html">Experiencias</a>
+    <a href="alojamiento.html">Alojamiento</a>
+    <a href="informacion.html">Información</a>
+  </nav>
+</header>
+     
         <h1>Destinos de la Patagonia</h1>
-        <h3><em>¡Vení  a disfrutar de una de las regiones mas impresionantes!</em></h3>
-    </header>
-<hr> 
-    <nav> 
-        <a href="#Neuquen">Neuquen</a>
-        <a href="#Rio Negro">Rio Negro</a>
-        <a href="#Chubut">Chubut</a>
-        <a href="#Santa Cruz">Santa Cruz</a>
-        <a href="#Tierra del Fuego">Tierra del Fuego</a>
-    </nav>
-<hr>
+        <h2>¡Vení  a disfrutar de una de las regiones mas impresionantes!</h2>
+ 
+
+
 <body>
 <main>
 
-  <p> Sus paisajes combinan montañas, lagos, glaciares, bosques y extensas estepas,
-      ofreciendo experiencias únicas para quienes buscan aventura, naturaleza y tranquilidad.</p>
+  <h3>Sus paisajes combinan montañas, lagos, glaciares, bosques y extensas estepas,
+      ofreciendo experiencias únicas para quienes buscan aventura, naturaleza y tranquilidad.</h3>
  
-  <h2>Las provincias de la patagonia y sus principales destinos</h2>
   
-  <div class="contenedor-tarjeta"> 
-  <section id="Neuquen" class="tarjeta">
+  <div class="grid"> 
+    <article class="card">
         <h3>Neuquén</h3>
         <p> Entre sus destinos más visitados se encuentran San Martín de los Andes,
             Villa La Angostura y el Parque Nacional Lanín, ideales para disfrutar
             de la naturaleza y las actividades al aire libre.</p>
-        <img src="img/neuquen.jpg" alt="Paisaje natural de Neuquén, con montañas y vegetación patagónica">
-    </section>
-    
-  
-  
+        <img src="../img/img/Destinos/neuquen.jpg" alt="Neuquén" class="img-destinos">
+    </article>
+
+    <article class="card">
+        <h3>Río Negro</h3>
+        <p> Río Negro es conocida por su entorno natural y sus paisajes montañosos. 
+            Algunos de sus destinos más populares son Bariloche, San Carlos de Bariloche
+            y el Lago Nahuel Huapi.</p>
+        <img src="../img/img/Destinos/Bariloche.jpg" alt="Río Negro" class="img-destinos">
+    </article>
+
+    <article class="card">
+        <h3>Chubut</h3>
+        <p> Chubut es reconocida por su rica biodiversidad y sus paisajes costeros. 
+            Algunos de sus destinos más destacados son Puerto Madryn, Trelew 
+            y la Reserva de la Biosfera de la Pampa.</p>
+        <img src="../img/img/Destinos/chubut.jpg" alt="Chubut" class="img-destinos">
+    </article>
+
+    <article class="card">
+        <h3>Santa Cruz</h3>
+        <p> Santa Cruz es conocida por su entorno natural y sus paisajes desérticos. 
+            Algunos de sus destinos más populares son El Calafate, El Chalten
+            y el Glaciar Perito Moreno.</p>
+        <img src="../img/img/Destinos/santa cruz.jpg" alt="Santa Cruz" class="img-destinos">
+    </article>
+
+     <article class="card">
+        <h3>Tierra del Fuego</h3>
+        <p> Tierra del Fuego es conocida por su entorno natural y sus paisajes montañosos. 
+            Algunos de sus destinos más populares son Ushuaia, Río Grande
+            y el Parque Nacional Tierra del Fuego.</p>
+        <img src="../img/img/Destinos/tierra del fuego.jpeg" alt="Tierra del Fuego" class="img-destinos">
+    </article>
 
   </div>
   <p>Desarrollar una página que presente distintos destinos turísticos de la Patagonia.</p>

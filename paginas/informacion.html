@@ -8,31 +8,106 @@
 </head>
 <body>
   <header class="topbar">
-  <a class="logo" href="index.html"><span>🏔️</span> Explora Patagonia</a>
+  <a class="logo" href="../index.html"><span>🏔️</span> Explora Patagonia</a>
   <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
   <nav id="menu" class="menu">
-    <a class="activo" href="index.html">Inicio</a>
-    <a href="paginas/destinos.html">Destinos</a>
-    <a href="paginas/experiencias.html">Experiencias</a>
-    <a href="paginas/alojamiento.html">Alojamiento</a>
-    <a href="paginas/informacion.html">Información</a>
+    <a href="../index.html">Inicio</a>
+    <a href="../paginas/destinos.html">Destinos</a>
+    <a href="../paginas/experiencias.html">Experiencias</a>
+    <a href="../paginas/alojamiento.html">Alojamiento</a>
+    <a class="activo" href="../paginas/informacion.html">Información</a>
   </nav>
 </header>
 
 <main class="contenedor seccion">
-  <section class="titulo">
-    <span class="tag">Planificá tu viaje</span>
-    <h1>Información útil para viajar por la Patagonia</h1>
-    <p>
+
+  <section class="titulo info-intro">
+    <div>
+      <span class="tag">Planificá tu viaje</span>
+      <h1>Información útil para viajar por la Patagonia</h1>
+      <p>
       La Patagonia es un territorio enorme, con distancias largas, clima cambiante y
       zonas con pocos servicios. Planificar el viaje con tiempo permite elegir la mejor
       época, reservar a tiempo y evitar imprevistos.
-    </p>
-    <p>
+      </p>
+      <p>
       En esta sección vas a encontrar datos prácticos sobre clima, transporte y
       documentación, además de consejos para recorrer la región de forma segura y
       responsable.
-    </p>
+      </p>
+    </div>
+    <img class="info-foto" src="../img/caminata.jpg" alt="Caminata">
+  </section>
+
+  <section class="contenedor seccion">
+
+    <div class="grid">
+
+      <article class="card">
+        <span class="icono">🌦️</span>
+        <h3>Clima</h3>
+        <p>Es muy variable y puede cambiar varias veces en un día. Hay viento fuerte en muchas zonas, así que conviene llevar ropa en capas y abrigo impermeable.</p>
+      </article>
+
+      <article class="card">
+        <span class="icono">🚌</span>
+        <h3>Transporte</h3>
+        <p>Hay vuelos a las principales ciudades, micros de larga distancia y alquiler de autos. Las distancias son grandes, por lo que conviene calcular bien los tiempos.</p>
+      </article>
+
+      <article class="card">
+        <span class="icono">🪪</span>
+        <h3>Documentación</h3>
+        <p>Llevá DNI o pasaporte, carnet de conducir si alquilás auto y datos de tu cobertura de salud. Los menores pueden necesitar autorización para viajar.</p>
+      </article>
+
+      <article class="card">
+        <span class="icono">🎒</span>
+        <h3>Recomendaciones</h3>
+        <p>Cargá combustible cuando puedas, llevá efectivo y descargá mapas sin conexión, porque en muchos tramos no hay señal.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contenedor seccion">
+    <div class="titulo">
+      <span class="tag">Temporadas</span>
+      <h2>¿Cuándo viajar?</h2>
+      <p>Cada época del año ofrece un tipo de experiencia distinto.</p>
+    </div>
+    <div class="info-tabla-wrap">
+      <table class="info-tabla">
+        <thead>
+          <tr><th>Temporada</th><th>Meses</th><th>Características</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Verano</td><td>Diciembre a febrero</td><td>Días largos y clima más agradable. Es temporada alta: más turistas y precios más altos.</td></tr>
+          <tr><td>Otoño</td><td>Marzo a mayo</td><td>Bosques con colores, menos gente y temperaturas más frescas.</td></tr>
+          <tr><td>Invierno</td><td>Junio a agosto</td><td>Nieve y deportes de montaña. Días cortos, mucho frío y rutas con hielo.</td></tr>
+          <tr><td>Primavera</td><td>Septiembre a noviembre</td><td>Deshielo y naturaleza en flor. Clima inestable y viento fuerte.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+    <section class="dosColumnas">
+    <div>
+      <span class="tag">Viajar mejor</span>
+      <h2>Consejos para viajar seguro y responsable</h2>
+      <ul class="check">
+        <li>Consultá el estado de las rutas y el pronóstico antes de salir.</li>
+        <li>Avisá a alguien tu recorrido si vas a hacer trekking.</li>
+        <li>No dejes residuos: llevate la basura hasta un lugar de descarte.</li>
+        <li>Respetá senderos, señalización y áreas protegidas.</li>
+        <li>No alimentes ni molestes a la fauna silvestre.</li>
+        <li>Reservá con anticipación en temporada alta.</li>
+      </ul>
+    </div>
+    <div class="nota">
+      <h3>Consejo de viaje</h3>
+      <p>Revisá siempre información actualizada del destino y preparate según la época del año.</p>
+      <a class="btn primario" href="destinos.html">Ver destinos</a>
+    </div>
   </section>
 </main>
 

@@ -57,3 +57,19 @@ h1,h2,h3{line-height:1.1;margin-top:0}h1{font-size:clamp(2.6rem,6vw,5rem);letter
     left: 50%;
     transform: translateX(-50%);
 }
+<<<<<<< HEAD
+=======
+
+/* Información (Gabriel)*/
+.info-tabla-wrap{overflow-x:auto;background:#fff;border:1px solid var(--borde);border-radius:24px;box-shadow:var(--sombra)}
+.info-tabla{width:100%;border-collapse:collapse;min-width:560px}
+.info-tabla th,.info-tabla td{padding:16px 20px;text-align:left;border-bottom:1px solid var(--borde)}
+.info-tabla th{background:var(--suave);color:var(--azul)}
+.info-tabla tr:last-child td{border-bottom:0}
+
+.info-intro{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.info-intro h1{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.03em}
+.info-intro .info-foto{width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;object-position:center;border-radius:24px;box-shadow:var(--sombra);display:block}
+@media(max-width:850px){.info-intro{grid-template-columns:1fr;gap:28px}}
+/*  Fin Información */
+>>>>>>> d10d4507e3005262f707d4ed0fb9569acda49bff
